@@ -1,0 +1,29 @@
+<!-- home.html -->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="${pageTitle}"></title>
+</head>
+<body>
+    <header>
+        <h1 th:text="${pageTitle}"></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/courses">Courses</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Home</h2>
+        <p>Welcome to our platform for student studies. Explore the various courses we offer!</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Student Studies. All rights reserved.</p>
+    </footer>
+</body>
+</html>
